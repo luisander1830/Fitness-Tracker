@@ -1,15 +1,11 @@
+//Sebastian Arroyo, Luisander Arroyo, Jerik Pereira
+
 #include <iostream>
 #include <iomanip>  // Para dar formato a la salida
 #include <string>   // Para usar getline
 #include <stdexcept> // Para manejar excepciones
 
 using namespace std;
-
-// Function to clear the screen
-void clearScreen() {
-    cout << "\033[2J\033[1;1H"; // Limpiado de pantalla ANSI
-}
-
 int main() {
     const int DIAS = 7;
     int pasos[DIAS];
@@ -38,6 +34,8 @@ int main() {
             }
 
             cin.ignore(); // Para limpiar el buffer antes de usar getline
+
+            //Sebastian Arroyo
 
             switch (menuOpc) {
             case 1:
@@ -80,6 +78,8 @@ int main() {
                 }
                
                 break;
+
+            //Jerik Pereira
 
             case 2:
                 cout << "Que grupo muscular quisieras enfocarte en la rutina? (piernas, pecho, espalda, brazos, abdominales): ";
@@ -148,6 +148,8 @@ int main() {
                
                 break;
 
+            //Luisander Arroyo
+
             case 3: {
                 const string dietas[3][3] = {
                     {"Desayuno: Avena con frutas", "Almuerzo: Ensalada de pollo", "Cena: Pescado a la plancha con verduras"},
@@ -179,6 +181,8 @@ int main() {
                 break;
             }
 
+       
+
             case 4:
                 cout << "Saliendo del programa\n";
                 return 0;
@@ -196,4 +200,4 @@ int main() {
     }
 
     return 0;
-}
+
