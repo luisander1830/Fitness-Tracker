@@ -20,7 +20,7 @@ int main() {
 
     try {
         do {
-            clearScreen(); //limpiar la pantalla antes de presentar el menu
+        
             cout << "Bienvenido a Fitness Tracker" << "\n";
             cout << "Que desea hacer?" << "\n";
             cout << "1 - Seguimiento de calorias por semana" << "\n";
