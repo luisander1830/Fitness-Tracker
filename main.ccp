@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>   // Para usar getline
 #include <stdexcept> // Para manejar excepciones
+#include <algorithm>      // Para usar funciones como transform, para convertir texto a minúsculas
 
 using namespace std;
 int main() {
