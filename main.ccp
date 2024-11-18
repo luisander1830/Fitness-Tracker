@@ -83,6 +83,8 @@ int main() {
             case 2:
                 cout << "Que grupo muscular quisieras enfocarte en la rutina? (piernas, pecho, espalda, brazos, abdominales): ";
                 getline(cin, grupoMuscular);
+                 cin.ignore();  // Limpiar el buffer
+                transform(grupoMuscular.begin(), grupoMuscular.end(), grupoMuscular.begin(), ::tolower);
 
                 if (grupoMuscular.empty()) {
                     throw invalid_argument("El grupo muscular no puede estar vacio.");
