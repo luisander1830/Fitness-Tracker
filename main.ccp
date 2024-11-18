@@ -1,9 +1,9 @@
 //Sebastian Arroyo, Luisander Arroyo, Jerik Pereira
 
 #include <iostream>
-#include <string>   // Para usar getline
-#include <stdexcept> // Para manejar excepciones
-#include <algorithm>      // Para usar funciones como transform, para convertir texto a minúsculas
+#include <string>   
+#include <stdexcept>
+#include <algorithm>      
 
 using namespace std;
 int main() {
