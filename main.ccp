@@ -1,7 +1,6 @@
 //Sebastian Arroyo, Luisander Arroyo, Jerik Pereira
 
 #include <iostream>
-#include <iomanip>  // Para dar formato a la salida
 #include <string>   // Para usar getline
 #include <stdexcept> // Para manejar excepciones
 
